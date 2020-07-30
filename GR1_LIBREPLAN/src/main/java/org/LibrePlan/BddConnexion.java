@@ -51,6 +51,4 @@ public class BddConnexion {
 		String tab[]= col;
 		Assertion.assertEqualsIgnoreCols(expectedTable, actualTable, tab);
 		}
-
-
 }

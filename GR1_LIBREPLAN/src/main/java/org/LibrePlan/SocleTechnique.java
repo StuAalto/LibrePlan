@@ -52,7 +52,8 @@ public class SocleTechnique {
 		boolean resultat = we.isDisplayed();
 		return resultat;
 	}
-	
+
+	// Méthode pour se connecter via un champ Utilisateur et un champ Mot de passe
 	public static void seConnecter(String utilisateur, String mdp, WebDriver driver) {
 		WebElement champ_utilisateur = driver.findElement(By.xpath("//input[@name='j_username']"));
 		WebElement champ_motdepasse = driver.findElement(By.xpath("//input[@name='j_password']"));
